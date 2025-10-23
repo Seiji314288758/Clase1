@@ -6,16 +6,19 @@ void main()
   int num1, num2, res;
 
   printf("Escribe el primer numero: \n");
-  scanf("%d", %num1);
+  scanf("%d", &num1);
   printf("Escribe el segundo numero: \n");
-  scanf("%d", %num2);
+  scanf("%d", &num2);
 
-  if(num1 % num2 == 0)
+  res = num1 % num2;
+
+ if(res == 0)
 {
-  printf("El numero es divisible \n");
+printf("El numero es divisible  \n");
 }
 else
 {
   printf("El numero no es divisible \n");
 }
+
 }
