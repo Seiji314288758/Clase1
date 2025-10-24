@@ -30,3 +30,28 @@ int main ()
 return 0;
 
 }
+
+
+#include <stdio.h>
+
+int main ()
+
+{
+  char letra;
+
+  printf("Ingrese una letra: ");
+  scanf(" %c", &letra);
+
+  if (letra == 'a' || letra == 'e' || letra == 'i' || letra == 'o' || letra == 'u'  || 
+      letra == 'A' || letra == 'E' || letra == 'I' || letra == 'O' || letra == 'U')
+    {
+     printf("Es una vocal.\n");
+    }
+
+   else 
+   {
+    printf("No es una vocal.\n");
+   }
+
+return 0;
+}
