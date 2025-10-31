@@ -1,5 +1,5 @@
 /*Victor Seiji Nieto Morita
-clase 1 ejercicio 4*/
+clase 2 ejercicio 4*/
 
 
 #include <stdio.h>
