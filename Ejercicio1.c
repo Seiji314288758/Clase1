@@ -1,3 +1,6 @@
+/*Victor Seiji Nieto Morita
+clase 1 ejercicio1*/
+
 #include <stdio.h>
 
 void main()
